@@ -5,20 +5,20 @@
 }
 
 .dice {
-  text-align: center;
   display: inline-block;
 
 }
 
 body {
   background-color: #393E46;
+  text-align: center;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Orbitron', sans-serif;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
 
@@ -34,8 +34,24 @@ img {
 
 footer {
   margin-top: 5%;
+  bottom:0;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width: 1200px){
+	h1{
+		font-size: 3.5em;
+   }
+  }
+
+  @media (max-width: 800px){
+    h1{
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    }
